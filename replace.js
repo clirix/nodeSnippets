@@ -96,7 +96,7 @@ var stInFunc = function(){
 
 
 
-get_time_diff = function(start , end){
+var get_time_diff = function(start , end){
 
 	return end.getTime() - start.getTime() + 'ms';
 
@@ -114,13 +114,13 @@ if(process.argv.length > 2){
 
 	}else{
 
-		stInFunk();
+		stInFunc();
 
 	}
 
 }else{
 
-	stInFunk();
+	stInFunc();
 
 }
 
